@@ -23,6 +23,8 @@ namespace SharedData
                     Console.Write($" {item} "); // 1, 2, 3
                 else
                     Console.WriteLine(item);
+
+                Console.WriteLine("\n");
             }
         }
     }

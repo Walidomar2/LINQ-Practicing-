@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34902.65
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filtering", "Filtering\Filtering.csproj", "{06F97D54-8112-4D43-82FB-E1E6D6663038}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Filtering", "Filtering\Filtering.csproj", "{06F97D54-8112-4D43-82FB-E1E6D6663038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedData", "SharedData\SharedData.csproj", "{BC8907DD-73A5-4ED2-8DE0-A75749603BB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedData", "SharedData\SharedData.csproj", "{BC8907DD-73A5-4ED2-8DE0-A75749603BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projection", "Projection\Projection.csproj", "{055F83F9-2A47-48B6-9D1A-8E3AAFE0FF92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BC8907DD-73A5-4ED2-8DE0-A75749603BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC8907DD-73A5-4ED2-8DE0-A75749603BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC8907DD-73A5-4ED2-8DE0-A75749603BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055F83F9-2A47-48B6-9D1A-8E3AAFE0FF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055F83F9-2A47-48B6-9D1A-8E3AAFE0FF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055F83F9-2A47-48B6-9D1A-8E3AAFE0FF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055F83F9-2A47-48B6-9D1A-8E3AAFE0FF92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

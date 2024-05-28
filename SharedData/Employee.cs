@@ -21,6 +21,8 @@ namespace SharedData
 
         public DateTime HireDate { get; set; }
 
+        public List<string> Skills { get; set; } = new List<string>();
+
         public string Gender { get; set; }
 
         public string Department { get; set; }
@@ -33,16 +35,26 @@ namespace SharedData
 
         public override string ToString()
         {
-            return
-                    string.Format($"" +
-                    $"{Id}\t" +
-                    $" {String.Concat(LastName, ", ", FirstName).PadRight(15, ' ')}\t" +
-                    $"{HireDate.Date.ToShortDateString()}\t" +
-                    $"{Gender.PadRight(10, ' ')}\t" +
-                    $"{Department.PadRight(10, ' ')}\t" +
-                    $"{HasHealthInsurance}\t" +
-                    $"{HasPensionPlan}\t" +
-                    $"${Salary.ToString("0.00")}");
+            return string.Format(
+                                 "ID: {0}\n" +
+                                 "Name: {1}\n" +
+                                 "Hire Date: {2}\n" +
+                                 "Gender: {3}\n" +
+                                 "Department: {4}\n" +
+                                 "Has Health Insurance: {5}\n" +
+                                 "Has Pension Plan: {6}\n" +
+                                 "Salary: ${7}\n" +
+                                 "Skills: {8}",
+                                 Id,
+                                 $"{LastName}, {FirstName}".PadRight(15, ' '),
+                                 HireDate.Date.ToShortDateString(),
+                                 Gender.PadRight(10, ' '),
+                                 Department.PadRight(10, ' '),
+                                 HasHealthInsurance,
+                                 HasPensionPlan,
+                                 Salary.ToString("0.00"),
+                                 string.Join(", ", Skills)
+                             );
         }
     }
 }
