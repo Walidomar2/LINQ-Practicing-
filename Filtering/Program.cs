@@ -30,10 +30,14 @@ namespace Filtering
 
             var employees = Repository.LoadEmployees();
 
+            //method syntex way
             var selectedEmps = employees.Where(x => x.Salary > 200000);
-
             selectedEmps.Print("Employees with salary > 200000");
 
+            //Query syntex way
+            var selectedEmps2 = from emp in employees where emp.Salary > 200000 select emp;
+            Console.WriteLine("\n=====================================");
+            selectedEmps2.Print("Employees with salary > 200000");
         }
     }
 }
