@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quantifiers", "Quantifiers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grouping", "Grouping\Grouping.csproj", "{84BAD125-B621-4B8E-B97E-AB798D76D371}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Joins", "Joins\Joins.csproj", "{A2A23FA7-2305-440A-9014-99BE8EAD2D2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{84BAD125-B621-4B8E-B97E-AB798D76D371}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84BAD125-B621-4B8E-B97E-AB798D76D371}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84BAD125-B621-4B8E-B97E-AB798D76D371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A23FA7-2305-440A-9014-99BE8EAD2D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A23FA7-2305-440A-9014-99BE8EAD2D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A23FA7-2305-440A-9014-99BE8EAD2D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A23FA7-2305-440A-9014-99BE8EAD2D2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
