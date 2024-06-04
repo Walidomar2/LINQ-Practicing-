@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Joins", "Joins\Joins.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generation", "Generation\Generation.csproj", "{3397AE25-FFEC-4C80-92EE-6E05314C84D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElementOperations", "ElementOperations\ElementOperations.csproj", "{1AF082C0-6516-4996-9AD5-6BC48E107794}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElementOperations", "ElementOperations\ElementOperations.csproj", "{1AF082C0-6516-4996-9AD5-6BC48E107794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EqualityOperations", "EqualityOperations\EqualityOperations.csproj", "{0D62808F-DBB9-4F14-A0F5-B5B5D0FEA028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{1AF082C0-6516-4996-9AD5-6BC48E107794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AF082C0-6516-4996-9AD5-6BC48E107794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AF082C0-6516-4996-9AD5-6BC48E107794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D62808F-DBB9-4F14-A0F5-B5B5D0FEA028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D62808F-DBB9-4F14-A0F5-B5B5D0FEA028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D62808F-DBB9-4F14-A0F5-B5B5D0FEA028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D62808F-DBB9-4F14-A0F5-B5B5D0FEA028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
